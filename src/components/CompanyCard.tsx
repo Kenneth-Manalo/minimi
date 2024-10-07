@@ -1,7 +1,6 @@
 import {Card, CardBody, CardFooter, Checkbox, Image} from "@nextui-org/react"
 import { CompanyProps } from "@/pages/types/company.types"
 
-let list: number[] = []
 export default function CompanyCard({ company }: CompanyProps) {
     return (
         <Card shadow="sm">
