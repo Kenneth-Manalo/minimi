@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 It will initially display 15 items, then will fetch another set as you scroll down.
 
-Added a console log to show the chuncked data being fetched from the API when scrolling down. You can check this by opening the browser DevTools `(fn + f12)`
+Added a console log to show the chunked data being fetched from the API when scrolling down. You can check this by opening the browser DevTools `(fn + f12)`
 
 ![Fetch Log](./public/ConsoleFetch.png)
 
@@ -29,3 +29,10 @@ You can add more data in `./mock_data/companies.json`
 The added `img` property in the object are the company logos located in `./public/images` 
 
 ![Mock Data](./public/MockData.png)
+
+To run a unit test:
+
+```bash
+npm run test
+```
+![Unit Test](./public/UnitTest.png)
