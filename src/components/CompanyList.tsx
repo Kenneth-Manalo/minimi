@@ -34,6 +34,7 @@ export default function CompanyList() {
   const loadCompanies = async () => {
     if (hasMoreData) {
       const apiCompanies = await getCompanies(offset, NUMBER_OF_COMPANIES_TO_FETCH)
+      console.log(apiCompanies)
       
       if (apiCompanies.length === 0) setHasMoreData(false)
       
